@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ################################################################
-# IRC Bot – Persistent history (last 200 messages per channel) #
+# IRC Bot - Persistent history (last 200 messages per channel) #
 #                                                              #
 # Created by q3aql (q3aql@duck.com)                            #
 # Licensed by GPL v2.0                                         #
@@ -76,7 +76,7 @@ def on_join(conn, event):
     if nick == NICK:
         return
 
-    logging.info("%s has joined %s – sending history", nick, channel)
+    logging.info("%s has joined %s - sending history", nick, channel)
 
     if history[channel]:
         for idx, line in enumerate(history[channel], start=1):
@@ -96,7 +96,7 @@ def on_pubmsg(conn, event):
 
 
 def on_disconnect(conn, event):
-    logging.warning("Disconnected from the server – reconnecting in 10s...")
+    logging.warning("Disconnected from the server - reconnecting in 10s...")
     time.sleep(10)
     try:
         connect_and_start()
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     saver_thread.start()
 
     def shutdown(signum, frame):
-        logging.info("Termination signal received – saving history and exiting...")
+        logging.info("Termination signal received - saving history and exiting...")
         stop_saver.set()
         saver_thread.join()
         save_history()
