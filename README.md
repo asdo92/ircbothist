@@ -39,7 +39,7 @@ SAVE_INTERVAL = 60
 
 ## Add the bot at system startup:
 
-Create de file `/etc/systemd/system/ircbothist.service` with the following:
+Create the file `/etc/systemd/system/ircbothist.service` with the following:
 
 ```
 [Unit]
