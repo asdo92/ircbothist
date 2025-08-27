@@ -25,7 +25,7 @@ Replace these lines with your configuration:
 
 ```
 ######## CONFIGURATION (Edit with your settings)
-SERVER   = "localhost"
+SERVER   = "irc.example.net"
 PORT     = 6667
 USE_TLS  = False
 NICK     = "history-bot"
