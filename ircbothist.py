@@ -3,7 +3,7 @@
 ################################################################
 # IRC Bot - Persistent history (last 200 messages per channel) #
 #                                                              #
-# Created by asdo92 (asdo92@duck.com)                            #
+# Created by asdo92 (asdo92@duck.com)                          #
 # Licensed by GPL v2.0                                         #
 # Last update: 23-08-2025                                      #
 #                                                              #
