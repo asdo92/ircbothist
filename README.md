@@ -6,7 +6,7 @@
 # apt update
 # apt install python3 python3-venv python3-pip
 # mkdir -p /opt/ircbothist
-# wget -c "https://q3aql.dev/scripts/ircbothist.py" -O /opt/ircbothist/ircbothist.py
+# wget -c "https://yougeek.dev/ircbothist/ircbothist.py" -O /opt/ircbothist/ircbothist.py
 # python3 -m venv /opt/ircbothist
 # source /opt/ircbothist/bin/activate
 # pip install --upgrade pip
